@@ -1,0 +1,30 @@
+{
+  "Title": "Absolutely Minimal Gamemode",
+  "Type": "game",
+  "Org": "duccsoft",
+  "Ident": "min_game",
+  "Tags": "minimal, test, debug, dev, empty",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": [],
+  "HasCode": true,
+  "CodePath": "/code/",
+  "Metadata": {
+    "MaxPlayers": 64,
+    "MinPlayers": 1,
+    "GameNetworkType": "Multiplayer",
+    "MapSelect": "Unrestricted",
+    "MapList": [
+      "facepunch.flatgrass"
+    ],
+    "RankType": "None",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "ProjectTemplate": null,
+    "Summary": "An empty gamemode for test purposes.",
+    "Description": "This gamemode has absolutely no custom code. No pawn is assigned - you simply sit at the default position doing nothing at all. This gamemode uses the default multiplayer networking and has no dependency on the Base project. Uses for this gamemode include: testing generic addons, exploring the default functionality of S\u0026box, and hosting the most boring server imaginable.",
+    "Public": true,
+    "ReplaceTags": "minimal test dev debug empty base"
+  }
+}
